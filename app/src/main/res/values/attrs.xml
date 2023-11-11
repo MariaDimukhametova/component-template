@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToolBarTemplate">
+        <attr name="type_toolbar" format="enum">
+            <enum name="single_icon" value="0" />
+            <enum name="double_icon" value="1" />
+            <enum name="image_icon" value="2" />
+        </attr>
+        <attr name="icon" format="reference"/>
+        <attr name="title_text" format="string"/>
+        <attr name="background_color" format="color" />
+        <attr name="text_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ToolBarTemplate_single_icon">
+        <attr name="single_icon1" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ToolBarTemplate_double_icon">
+        <attr name="double_icon1" format="reference" />
+        <attr name="double_icon2" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ToolBarTemplate_image_icon">
+        <attr name="image" format="reference" />
+    </declare-styleable>
+</resources>
